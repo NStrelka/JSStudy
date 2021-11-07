@@ -1,6 +1,7 @@
 "use strict";
 
 // 5 - Переменные и строгий режим
+
 // // a = 15;  // так нельзя делать. при использовании директивы "use strict"; - выведется ошибка
 // // console.log(a);
 // let number = 5;
@@ -23,6 +24,7 @@
 // console.log(result1);
 
 // //6 - Классификация типов данных в JS
+
 // let number = 4.6;
 // console.log(4/0);   //Infinity
 // console.log('string' * 9);  //NaN
@@ -44,6 +46,7 @@
 // console.log(arr[1]);
 
 //Простое общение с пользователем
+
 //alert('Hello!');
 //const result = confirm("Are u here?");
 //console.log(result);
@@ -59,10 +62,12 @@
 // console.log(typeof(answers));
 
 //Интерполяция
+
 //const category = 'toys';
 //console.log(`https://someurl.com/${category}/5`);
 
 //Операторы в JS
+
 // console.log('arr' + " - object");
 // console.log(4 + " - object");
 // console.log(4 + "5");   //45
@@ -79,5 +84,53 @@ console.log(isChecked && isClose);
 console.log(isChecked || isClose);
 console.log(isChecked || !isClose);*/
 
+//Условия
 
+// if (4 == 9){
+//     console.log('Ok!');
+// }else {
+//     console.log('Error');
+// }
+
+// const num = 48;
+// if (num < 49){
+//     console.log('Error');
+// } else if (num > 100){
+//     console.log('Too much');
+// } else{
+//     console.log('Ok!');
+// }
+
+// const num = 48;
+// (num === 48) ? console.log('Ok!') : console.log('Error');
+
+
+//Циклы
+
+/*let num = 50;
+while (num < 55) {
+    console.log(num);
+    num++;
+}*/
+
+/*let num = 50;
+do {
+    console.log(num);
+    num++;
+}
+while (num < 55);*/
+
+/*let num = 50;
+for (let i = 1; i < 8; i++){
+    console.log(num);
+    num++;
+}*/
+
+/*for (let i = 1; i < 10; i++){
+    if (i === 6) {
+        //break;  // прерывает цикл полностью
+        continue; // пропускает 6
+    }
+    console.log(i);
+}/*
 
